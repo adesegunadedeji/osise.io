@@ -6,6 +6,20 @@ This is a Fullstack Employee Performance Management System that is designed to t
 ![](https://github.com/adesegunadedeji/osise.io/blob/master/Orise%20Architecture)
 
 
+## Tools and Technologies
+ ### Backend
+ Spring Boot
+ JDK
+ Spring Framework
+ Hibernate
+ JPA
+ Maven
+ PostgreSQL JDBC Driver
+
+ ### FrontEnd
+ React 
+ React-Native
+ 
 ## Contributors
 A.Adedeji - Freelance Software Developer
 
