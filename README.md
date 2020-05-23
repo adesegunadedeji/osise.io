@@ -9,7 +9,7 @@ This is a Fullstack Employee Performance Management System that is designed to t
 ## Tools and Technologies
  ### Backend
  Ruby on Rails
- Post Gres
+ Postgresql
 
  ### FrontEnd
  React 

@@ -1,0 +1,57 @@
+  [1m[35m (465.0ms)[0m  [1m[35mCREATE DATABASE "server_development" ENCODING = 'unicode'[0m
+  [1m[35m (435.6ms)[0m  [1m[35mCREATE DATABASE "server_test" ENCODING = 'unicode'[0m
+  [1m[35m (27.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4709995827031202925)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmployees (20200523195639)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (13.4ms)[0m  [1m[35mCREATE TABLE "employees" ("id" bigserial primary key, "first_name" character varying, "last_name" character varying, "job_title" character varying, "department" character varying, "profile_image" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200523195639"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-23 20:08:39.379575"], ["updated_at", "2020-05-23 20:08:39.379575"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4709995827031202925)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (3.1ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Denise"], ["last_name", "Reilly"], ["job_title", "Government Facilitator"], ["department", "Farming"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.187248"], ["updated_at", "2020-05-23 20:09:07.187248"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Hilario"], ["last_name", "Lubowitz"], ["job_title", "National Banking Executive"], ["department", "Community-Services"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.194549"], ["updated_at", "2020-05-23 20:09:07.194549"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Tabetha"], ["last_name", "Wolff"], ["job_title", "Government Executive"], ["department", "Hospitality"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.197802"], ["updated_at", "2020-05-23 20:09:07.197802"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Orville"], ["last_name", "Koss"], ["job_title", "Education Analyst"], ["department", "Farming"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.202744"], ["updated_at", "2020-05-23 20:09:07.202744"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Eugene"], ["last_name", "Schimmel"], ["job_title", "Marketing Representative"], ["department", "Healthcare"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.206991"], ["updated_at", "2020-05-23 20:09:07.206991"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Colby"], ["last_name", "Pacocha"], ["job_title", "National Advertising Executive"], ["department", "Marketing"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.210674"], ["updated_at", "2020-05-23 20:09:07.210674"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.3ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Sherice"], ["last_name", "Casper"], ["job_title", "Hospitality Associate"], ["department", "Administration"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.214096"], ["updated_at", "2020-05-23 20:09:07.214096"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.4ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Rudolf"], ["last_name", "Friesen"], ["job_title", "Forward Consulting Planner"], ["department", "Technology"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.218190"], ["updated_at", "2020-05-23 20:09:07.218190"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Analisa"], ["last_name", "Yost"], ["job_title", "Mining Executive"], ["department", "Mining"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.230971"], ["updated_at", "2020-05-23 20:09:07.230971"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployee Create (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Charmaine"], ["last_name", "Glover"], ["job_title", "Consulting Liaison"], ["department", "Education"], ["profile_image", "https://placehold.it/50x50.jpg"], ["created_at", "2020-05-23 20:09:07.235375"], ["updated_at", "2020-05-23 20:09:07.235375"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/employees" for ::1 at 2020-05-23 13:09:57 -0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 80ms (Views: 66.8ms | ActiveRecord: 10.3ms | Allocations: 8575)
+
+
