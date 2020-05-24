@@ -55,3 +55,1026 @@ Processing by EmployeesController#index as HTML
 Completed 200 OK in 80ms (Views: 66.8ms | ActiveRecord: 10.3ms | Allocations: 8575)
 
 
+Started GET "/employees" for ::1 at 2020-05-23 16:18:16 -0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (4.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 25ms (Views: 12.5ms | ActiveRecord: 9.0ms | Allocations: 8573)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-05-23 16:18:20 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-23 16:18:21 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/adesegunadedeji/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/adesegunadedeji/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.3ms | Allocations: 196)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 867)
+
+
+Started GET "/" for ::1 at 2020-05-23 16:21:06 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/adesegunadedeji/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/adesegunadedeji/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 13.8ms | Allocations: 191)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 723)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 16:59:36 -0700
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 53ms (Views: 26.9ms | ActiveRecord: 22.8ms | Allocations: 8576)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 16:59:59 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 18.7ms | ActiveRecord: 1.3ms | Allocations: 2490)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:00:57 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (172.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 180ms (Views: 6.5ms | ActiveRecord: 172.6ms | Allocations: 2490)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:00:57 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (9.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 6.0ms | ActiveRecord: 9.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:01:10 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (10.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 6.7ms | ActiveRecord: 10.9ms | Allocations: 2490)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:01:11 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:01:46 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (247.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 275ms (Views: 27.1ms | ActiveRecord: 247.7ms | Allocations: 2491)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:01:46 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:02:30 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:02:31 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 1.8ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:02:47 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:02:47 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (9.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 25.8ms | ActiveRecord: 9.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:03:23 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.8ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:04:36 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (737.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 763ms (Views: 23.5ms | ActiveRecord: 737.3ms | Allocations: 2476)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:04:37 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (36.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 66ms (Views: 28.6ms | ActiveRecord: 36.8ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:04:56 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.3ms | Allocations: 2472)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:04:57 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (116.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 143ms (Views: 26.2ms | ActiveRecord: 116.7ms | Allocations: 2472)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:07:18 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (17.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 4.6ms | ActiveRecord: 17.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:07:18 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (2.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 2.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:07:42 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (2.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 4.1ms | ActiveRecord: 2.6ms | Allocations: 2474)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:07:43 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (15.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 3.9ms | ActiveRecord: 15.1ms | Allocations: 2473)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:28:17 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (374.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 389ms (Views: 11.9ms | ActiveRecord: 374.5ms | Allocations: 2529)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:28:47 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (4.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 4.0ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:33:30 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (5.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 16.4ms | ActiveRecord: 5.2ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:34:20 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (4.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 25ms (Views: 17.3ms | ActiveRecord: 4.8ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:34:31 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (14.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 14.9ms | ActiveRecord: 14.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:35:06 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.7ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:35:15 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:35:33 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 1.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:35:50 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (12.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 10.4ms | ActiveRecord: 12.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:36:57 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (14.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 167ms (Views: 139.7ms | ActiveRecord: 14.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:45:19 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (9.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 10.4ms | ActiveRecord: 9.9ms | Allocations: 2530)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:45:52 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 2.0ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:46:26 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (2.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 2.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:49:17 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 4.7ms | ActiveRecord: 3.7ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:50:27 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:58:33 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 20.2ms | ActiveRecord: 1.5ms | Allocations: 2529)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:58:41 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (9.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 5.8ms | ActiveRecord: 9.2ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 17:58:51 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:00:49 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (43.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 51ms (Views: 7.0ms | ActiveRecord: 43.8ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:00:50 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (326.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 333ms (Views: 6.8ms | ActiveRecord: 326.2ms | Allocations: 2472)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:01:19 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (50.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 57ms (Views: 5.6ms | ActiveRecord: 50.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:01:20 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:01:33 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (4.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 8.8ms | ActiveRecord: 4.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:01:34 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (310.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 317ms (Views: 6.5ms | ActiveRecord: 310.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:01:55 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 4.8ms | ActiveRecord: 3.8ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:01:56 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 1.9ms | Allocations: 2474)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:10:54 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 22.1ms | ActiveRecord: 1.4ms | Allocations: 2529)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:10:57 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 1.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:12:52 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (16.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 6.9ms | ActiveRecord: 16.7ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:12:53 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.8ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:13:13 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (306.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 312ms (Views: 5.0ms | ActiveRecord: 306.7ms | Allocations: 2474)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:13:14 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:13:25 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (37.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 45ms (Views: 6.8ms | ActiveRecord: 37.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:13:26 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (9.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 7.1ms | ActiveRecord: 9.9ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:14:44 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (319.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 324ms (Views: 4.9ms | ActiveRecord: 319.0ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:14:45 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 3.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:15:57 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (13.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 6.9ms | ActiveRecord: 13.9ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:15:57 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (9.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 6.7ms | ActiveRecord: 9.0ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:16:16 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (5.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 5.7ms | ActiveRecord: 5.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:16:17 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 3.7ms | ActiveRecord: 3.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:23:21 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 1.4ms | Allocations: 2532)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:23:23 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (34.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 38ms (Views: 3.4ms | ActiveRecord: 34.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:26:10 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 12.8ms | ActiveRecord: 3.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:26:35 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:26:40 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:26:51 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:27:28 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (26.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 2.7ms | ActiveRecord: 26.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:27:43 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (2.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 4.1ms | ActiveRecord: 2.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:27:59 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:29:41 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (7.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 7.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:30:52 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (45.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 63ms (Views: 14.9ms | ActiveRecord: 45.7ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:31:35 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 2.0ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:31:58 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:35:01 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (22.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 4.7ms | ActiveRecord: 22.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:38:47 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (4.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 5.2ms | ActiveRecord: 4.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:39:05 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (2.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 56ms (Views: 54.0ms | ActiveRecord: 2.1ms | Allocations: 2474)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:39:58 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.9ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:40:13 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (4.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 3.4ms | ActiveRecord: 4.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:41:56 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (66.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 72ms (Views: 5.2ms | ActiveRecord: 66.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:43:15 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (14.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 11.6ms | ActiveRecord: 14.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:43:19 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 1.7ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:43:24 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.7ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:43:48 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (27.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 3.8ms | ActiveRecord: 27.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:44:05 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (8.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 4.8ms | ActiveRecord: 8.3ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:44:18 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:45:49 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 13.6ms | ActiveRecord: 0.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:50:04 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:51:43 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/" for ::1 at 2020-05-23 18:52:12 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/adesegunadedeji/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/adesegunadedeji/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.1ms | Allocations: 315)
+Completed 200 OK in 33ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 1590)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:52:31 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.9ms | Allocations: 2472)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:53:17 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:56:34 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (35.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 4.2ms | ActiveRecord: 35.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:56:38 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:56:59 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:58:29 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 3.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 18:58:55 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.9ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:00:03 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 1.1ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:03:59 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (22.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 5.6ms | ActiveRecord: 22.9ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:04:21 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:04:40 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:05:25 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:05:46 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:06:42 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (497.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 502ms (Views: 4.1ms | ActiveRecord: 497.5ms | Allocations: 2474)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:06:50 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.5ms | Allocations: 2472)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:07:11 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (11.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 4.5ms | ActiveRecord: 11.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:10:13 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:10:46 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (3.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 3.0ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:11:00 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:11:23 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (11.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 10.8ms | ActiveRecord: 11.6ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:12:41 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (6.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 64ms (Views: 56.9ms | ActiveRecord: 6.5ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:12:59 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (6.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 32.7ms | ActiveRecord: 6.0ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:13:43 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (6.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 20.3ms | ActiveRecord: 6.8ms | Allocations: 2471)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:24:15 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (2.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 26.0ms | ActiveRecord: 2.5ms | Allocations: 2529)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:27:53 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (52.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 83ms (Views: 23.9ms | ActiveRecord: 52.2ms | Allocations: 2473)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:27:59 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 1.9ms | Allocations: 2473)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:29:14 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (7.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 32.7ms | ActiveRecord: 7.7ms | Allocations: 2476)
+
+
+Started POST "/employees" for ::1 at 2020-05-23 19:29:27 -0700
+Processing by EmployeesController#create as */*
+  Parameters: {"first_name"=>"fhfh", "last_name"=>"hfh", "job_title"=>"hfhf", "department"=>"hff", "profile_image"=>"C:\\fakepath\\Orise Architecture (2).jpeg", "employee"=>{"first_name"=>"fhfh", "last_name"=>"hfh", "job_title"=>"hfhf", "department"=>"hff", "profile_image"=>"C:\\fakepath\\Orise Architecture (2).jpeg"}}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[36mEmployee Create (17.6ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "fhfh"], ["last_name", "hfh"], ["job_title", "hfhf"], ["department", "hff"], ["profile_image", "C:\\fakepath\\Orise Architecture (2).jpeg"], ["created_at", "2020-05-24 02:29:27.447714"], ["updated_at", "2020-05-24 02:29:27.447714"]]
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+Completed 201 Created in 38ms (Views: 3.0ms | ActiveRecord: 23.4ms | Allocations: 2923)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:30:09 -0700
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.9ms | Allocations: 2635)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:34:09 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.6ms | Allocations: 2637)
+
+
+Started POST "/employees" for ::1 at 2020-05-23 19:34:23 -0700
+Processing by EmployeesController#create as */*
+  Parameters: {"first_name"=>"Ade", "last_name"=>"Gu", "job_title"=>"Software", "department"=>"Music", "profile_image"=>"C:\\fakepath\\Orise Architecture (2).jpeg", "employee"=>{"first_name"=>"Ade", "last_name"=>"Gu", "job_title"=>"Software", "department"=>"Music", "profile_image"=>"C:\\fakepath\\Orise Architecture (2).jpeg"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[36mEmployee Create (3.2ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Ade"], ["last_name", "Gu"], ["job_title", "Software"], ["department", "Music"], ["profile_image", "C:\\fakepath\\Orise Architecture (2).jpeg"], ["created_at", "2020-05-24 02:34:23.486027"], ["updated_at", "2020-05-24 02:34:23.486027"]]
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+Completed 201 Created in 19ms (Views: 0.8ms | ActiveRecord: 7.5ms | Allocations: 2657)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:35:22 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (143.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 148ms (Views: 4.1ms | ActiveRecord: 143.7ms | Allocations: 2800)
+
+
+Started POST "/employees" for ::1 at 2020-05-23 19:35:38 -0700
+Processing by EmployeesController#create as */*
+  Parameters: {"first_name"=>"Gusto", "last_name"=>"Esteban", "job_title"=>"Director", "department"=>"Engineering", "profile_image"=>"", "employee"=>{"first_name"=>"Gusto", "last_name"=>"Esteban", "job_title"=>"Director", "department"=>"Engineering", "profile_image"=>""}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[36mEmployee Create (6.5ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Gusto"], ["last_name", "Esteban"], ["job_title", "Director"], ["department", "Engineering"], ["profile_image", ""], ["created_at", "2020-05-24 02:35:38.980745"], ["updated_at", "2020-05-24 02:35:38.980745"]]
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+Completed 201 Created in 15ms (Views: 0.6ms | ActiveRecord: 7.5ms | Allocations: 2655)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:35:51 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 1.6ms | Allocations: 2961)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:36:51 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms | Allocations: 2961)
+
+
+Started POST "/employees" for ::1 at 2020-05-23 19:36:59 -0700
+Processing by EmployeesController#create as */*
+  Parameters: {"first_name"=>"ru", "last_name"=>"ff", "job_title"=>"f", "department"=>"fhhf", "profile_image"=>"", "employee"=>{"first_name"=>"ru", "last_name"=>"ff", "job_title"=>"f", "department"=>"fhhf", "profile_image"=>""}}
+  [1m[35m (5.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[36mEmployee Create (2.7ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "ru"], ["last_name", "ff"], ["job_title", "f"], ["department", "fhhf"], ["profile_image", ""], ["created_at", "2020-05-24 02:36:59.379100"], ["updated_at", "2020-05-24 02:36:59.379100"]]
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[35m (15.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+Completed 201 Created in 31ms (Views: 0.5ms | ActiveRecord: 23.2ms | Allocations: 2653)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:37:11 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (3.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 3.1ms | Allocations: 3122)
+
+
+Started POST "/employees" for ::1 at 2020-05-23 19:37:17 -0700
+Processing by EmployeesController#create as */*
+  Parameters: {"first_name"=>"fgh", "last_name"=>"hfh", "job_title"=>"hfgh", "department"=>"hgh", "profile_image"=>"", "employee"=>{"first_name"=>"fgh", "last_name"=>"hfh", "job_title"=>"hfgh", "department"=>"hgh", "profile_image"=>""}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[36mEmployee Create (3.7ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "fgh"], ["last_name", "hfh"], ["job_title", "hfgh"], ["department", "hgh"], ["profile_image", ""], ["created_at", "2020-05-24 02:37:17.188530"], ["updated_at", "2020-05-24 02:37:17.188530"]]
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+Completed 201 Created in 16ms (Views: 0.4ms | ActiveRecord: 9.4ms | Allocations: 2653)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:37:51 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 1.3ms | Allocations: 3283)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:37:56 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 3283)
+
+
+Started POST "/employees" for ::1 at 2020-05-23 19:38:03 -0700
+Processing by EmployeesController#create as */*
+  Parameters: {"first_name"=>"fh", "last_name"=>"hfh", "job_title"=>"hh", "department"=>"hf", "profile_image"=>"", "employee"=>{"first_name"=>"fh", "last_name"=>"hfh", "job_title"=>"hh", "department"=>"hf", "profile_image"=>""}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[36mEmployee Create (0.4ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "fh"], ["last_name", "hfh"], ["job_title", "hh"], ["department", "hf"], ["profile_image", ""], ["created_at", "2020-05-24 02:38:03.229458"], ["updated_at", "2020-05-24 02:38:03.229458"]]
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+Completed 201 Created in 7ms (Views: 0.5ms | ActiveRecord: 3.0ms | Allocations: 2653)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:38:08 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (73.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 78ms (Views: 4.8ms | ActiveRecord: 73.4ms | Allocations: 3445)
+
+
+Started GET "/employees" for ::1 at 2020-05-23 19:39:57 -0700
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 17.6ms | ActiveRecord: 7.7ms | Allocations: 9549)
+
+
+Started POST "/employees" for ::1 at 2020-05-23 19:40:15 -0700
+Processing by EmployeesController#create as */*
+  Parameters: {"first_name"=>"Tola", "last_name"=>"Odutol", "job_title"=>"pastor", "department"=>"Clergy", "profile_image"=>"", "employee"=>{"first_name"=>"Tola", "last_name"=>"Odutol", "job_title"=>"pastor", "department"=>"Clergy", "profile_image"=>""}}
+  [1m[35m (2.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[36mEmployee Create (0.6ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Tola"], ["last_name", "Odutol"], ["job_title", "pastor"], ["department", "Clergy"], ["profile_image", ""], ["created_at", "2020-05-24 02:40:15.468819"], ["updated_at", "2020-05-24 02:40:15.468819"]]
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+Completed 201 Created in 10ms (Views: 0.9ms | ActiveRecord: 3.9ms | Allocations: 2937)
+
+
