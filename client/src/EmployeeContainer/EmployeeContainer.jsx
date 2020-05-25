@@ -17,7 +17,6 @@ export default class EmployeeContainer extends Component{
 
     getEmployees =  async()=>{
         try { 
-            // get Employees Using Axios
             const employees = await fetch(`${url}`);
             const fetchedData = await employees.json();
                 this.setState({
@@ -29,36 +28,56 @@ export default class EmployeeContainer extends Component{
     }
 
     createEmployee = async(formData)=>{
-        console.log(formData);
         try {
            const newEmployee = await fetch(`${url}`, {
                method: "POST",
                body: JSON.stringify(formData),
                headers:{
-                   "Content-Type": "application/json"
+                   "Content-Type": "application/json",
+                   "accept": "application/json"
                }
-            });
-            const fetchedData = await newEmployee.json();
-            console.log(fetchedData.status.code)
-            console.log(fetchedData);
-            if(fetchedData.status.code === 201){
+            })
+            let parsedResponse = await newEmployee.json();
+            if(parsedResponse){
                 this.setState({
-                    employees: [...this.state.employees, fetchedData.data]
+                    employees: [...this.state.employees, parsedResponse.data]
                 })
-
             }
-        }catch (error) {
+    } catch (error) {
             console.log(error);
         }
     }
 
+    deleteEmployee = async (id) =>{
+        console.log(id, "Expecting ID of Deleted Employee");
+        try{
+                await fetch(`${url}/${id}`,{
+                method: "DELETE",
+            });
+                this.setState({
+                employees: this.state.employees.filter(employee=>  employee.id !==id 
+                    // function(employee){
+                //     if(employee.id === id){
+                //         return false;
+                //     }
+                //     else{
+                //         return true;
+                //     }
+                // }
+                )
+            })
+        }
+        catch(err){
+            console.log(err)
+        }
+    }
 
     render(){
         return (
             <div>
                 <h1> Here's the employee container</h1>
                 <NewEmployee createEmployee={this.createEmployee}/>
-                <EmployeeList employees={this.state.employees}/>
+                <EmployeeList allEmployees={this.state.employees} deleteEmployee={this.deleteEmployee}/>
             </div>
         )
     }

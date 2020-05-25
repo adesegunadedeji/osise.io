@@ -53,8 +53,9 @@ export default class NewEmployee extends Component{
         if (isValid){
         this.props.createEmployee(this.state);
         //Clear Form
-        this.setState({initialState})
+        // this.setState({initialState})
         }
+        e.target.reset();
     };
 
     render(){

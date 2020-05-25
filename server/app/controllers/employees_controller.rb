@@ -18,7 +18,7 @@ class EmployeesController < ApplicationController
     @employee = Employee.new(employee_params)
 
     if @employee.save
-      render json: @employee, status: :created, location: @employee
+      render json: @employee, status: 201, location: @employee
     else
       render json: @employee.errors, status: :unprocessable_entity
     end
