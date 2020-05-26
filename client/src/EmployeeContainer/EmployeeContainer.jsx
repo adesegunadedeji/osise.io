@@ -71,13 +71,32 @@ export default class EmployeeContainer extends Component{
             console.log(err)
         }
     }
-
+        updateEmployee = async(id,formData)=>{
+             try {
+               const updatedEmployee =  await fetch(`${url}/${id}`,{
+                method: "PUT",
+                body:JSON.stringify(formData),
+                headers:{
+                    "Content-Type": "application/json",
+                }
+               });
+               const parsedResponse = await updatedEmployee.json();
+               console.log(parsedResponse);
+               this.setState({
+                   employees: this.state.employees.map((employee)=>
+                    employee.id === id ? parsedResponse: employee
+                   )
+               })
+            } catch (error) {
+        console.log(error)
+    }
+}
     render(){
         return (
             <div>
                 <h1> Here's the employee container</h1>
                 <NewEmployee createEmployee={this.createEmployee}/>
-                <EmployeeList allEmployees={this.state.employees} deleteEmployee={this.deleteEmployee}/>
+                <EmployeeList allEmployees={this.state.employees} deleteEmployee={this.deleteEmployee} updateEmployee={this.updateEmployee}/>
             </div>
         )
     }
