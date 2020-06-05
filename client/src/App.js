@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
-import EmployeeContainer from './EmployeeContainer/EmployeeContainer';
+import Product from './HomeContainer/ProductContainer/Product'
+import About from './HomeContainer/AboutContainer/About';
+//import EmployeeContainer from './EmployeeContainer/EmployeeContainer';
+import Home from './HomeContainer/Home';
 
 function App() {
   return (
     <div className="App">
-     <EmployeeContainer/>
+     <Home/>
+     <About/>
+     <Product/>
+     {/* <EmployeeContainer/> */}
     </div>
   );
 }

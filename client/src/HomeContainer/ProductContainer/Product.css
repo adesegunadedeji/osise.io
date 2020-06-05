@@ -1,0 +1,16 @@
+.product-container{
+    background-color: #F44C3A;
+    text-align: center;
+}
+
+img{
+    opacity: 1;
+    max-width: 150px;
+}
+
+.productImg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 3;
+}
