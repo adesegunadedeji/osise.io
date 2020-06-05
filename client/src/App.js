@@ -4,6 +4,7 @@ import Product from './HomeContainer/ProductContainer/Product'
 import About from './HomeContainer/AboutContainer/About';
 //import EmployeeContainer from './EmployeeContainer/EmployeeContainer';
 import Home from './HomeContainer/Home';
+import Opportunity from './HomeContainer/Opportunity/Opportunity';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Home/>
      <About/>
      <Product/>
+     <Opportunity/>
      {/* <EmployeeContainer/> */}
     </div>
   );

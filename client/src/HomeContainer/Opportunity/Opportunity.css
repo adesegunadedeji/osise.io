@@ -1,0 +1,11 @@
+.opportunity-container {
+    background-color:  #090909;
+    padding-top: 20px !important;
+    padding-bottom: 55px !important;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+}

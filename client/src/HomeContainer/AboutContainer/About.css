@@ -2,6 +2,8 @@
 .about-container{
 background-color: #090909;
 text-align: center;
+padding-top: 20px !important;
+padding-bottom: 55px !important;
 }
 
 strong{

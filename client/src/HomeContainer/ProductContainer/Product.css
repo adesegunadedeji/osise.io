@@ -1,16 +1,33 @@
 .product-container{
     background-color: #F44C3A;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    padding-top: 20px !important;
+    padding-bottom: 55px !important;
 }
 
 img{
     opacity: 1;
     max-width: 150px;
+    
+}
+p{
+    color: #090909;
 }
 
 .productImg-container{
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 3;
+}
+
+h6{
+    color: #090909;
+}
+
+.image_container{
+    margin: 0px 10px 10px 10px;
+    padding-bottom: 10px;
 }
