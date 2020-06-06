@@ -1,19 +1,16 @@
 import React from 'react';
 import './App.css';
-import Product from './HomeContainer/ProductContainer/Product'
-import About from './HomeContainer/AboutContainer/About';
+import {Switch,Route} from 'react-router-dom';
+import EmployeeContainer from './EmployeeContainer/EmployeeContainer';
 //import EmployeeContainer from './EmployeeContainer/EmployeeContainer';
-import Home from './HomeContainer/Home';
-import Opportunity from './HomeContainer/Opportunity/Opportunity';
-
+import HomeContainer from './HomeContainer/HomeContainer';
 function App() {
   return (
     <div className="App">
-     <Home/>
-     <About/>
-     <Product/>
-     <Opportunity/>
-     {/* <EmployeeContainer/> */}
+      <Switch>
+        <Route path="/employees" component = {EmployeeContainer}/>
+        <Route path= '/' component ={HomeContainer}/>
+      </Switch>
     </div>
   );
 }

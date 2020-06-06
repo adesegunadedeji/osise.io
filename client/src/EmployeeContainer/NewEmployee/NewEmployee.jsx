@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './NewEmployee.css'
 
 const initialState = {
     first_name: "",
@@ -60,30 +61,21 @@ export default class NewEmployee extends Component{
 
     render(){
         return (
+            <div className="newEmployee-container">
+                <h2>Add a new Employee</h2>
                 <form onSubmit={this.handleSubmit}>
-                    <h4>Add a New employee</h4>
-                    <div>
                     <input type="text"  name="first_name" placeholder="First Name" value={this.state.first_name} onChange={this.handleChange}/>
-                    </div>
                     <div style={{ color: "red", fontSize: 12}}>{this.state.first_nameError}</div>
-                    <div>
                     <input type="text"  name="last_name" placeholder="Last Name" value={this.state.last_name} onChange={this.handleChange}/>
-                    </div>
                     <div style={{ color: "red", fontSize: 12}}>{this.state.last_nameError}</div>
-                    <div>
                     <input type="text"  name="job_title" placeholder="Job Title" value={this.state.job_title} onChange={this.handleChange}/>
                     <div style={{ color: "red", fontSize: 12}}>{this.state.job_titleError}</div>
-                    </div>
-                    <div> 
                     <input type="text"  name="department" placeholder="Department" value={this.state.department} onChange={this.handleChange}/>
-                    </div>
                     <div style={{ color: "red", fontSize: 12}}>{this.state.departmentError}</div>
-                    <div>
-                    <input type="file" name="profile_image" value={this.state.profile_image} onChange={this.handleChange}/></div>
-                    <div>
+                    <input type="file" name="profile_image" value={this.state.profile_image} onChange={this.handleChange}/>
                     <input type="submit"/>
-                    </div>
                 </form>
+                </div>
         )
     }
 }

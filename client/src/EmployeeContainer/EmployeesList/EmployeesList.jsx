@@ -1,25 +1,28 @@
 import React from 'react';
+import './EmployeeList.css';
 import EditEmployeeModal from '../EditEmployeeModal';
 
 const EmployeesList = (props)=>{
         let employees = props.allEmployees.map((employee)=> {
-            console.log(employee.profile_image);
+            console.log(employee);
         return(
-            <div key={employee.id}>
-
-                <h4 style={{color: "red", listStyle: "none"}}>{employee.first_name}</h4>
-                {/* <img style={{sborderRadius: "5px"}} src={employee.profile_image} alt="Emplyee Image"/> */}
-                <EditEmployeeModal employee={employee} updateEmployee={props.updateEmployee}/>
-                <button onClick={()=>{
+            <div key={employee.id} className="name-container">
+                <h4>{employee.first_name} {employee.last_name}</h4>
+                <img className="employee-image" src={employee.profile_image} alt={employee.first_name}/>
+                <div className="inline_button"></div>
+                <EditEmployeeModal employee={employee} updateEmployee={props.updateEmployee} className="editEmployeeButton"/>
+                <button className="second-button" onClick={()=>{
                     props.deleteEmployee(employee.id)
-                }} style={{backgroundColor: "red", borderRadius: "20px"}}>DELETE</button>
+                }}>DELETE</button>
             </div>
         )
             })
     return (
-        <div>
-            <h3>List of Employees</h3>
+        <div className="employee-container">
+            <h2 className="employee-header">List of Employees</h2>
+            <div className="flex-employee">
             {employees}
+            </div>
         </div>
     )
 }

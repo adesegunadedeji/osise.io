@@ -1,9 +1,7 @@
 import React from 'react';
 import './Home.css'
 import osise from '../Images/osise.png'
-import Navbar from './Navbar'
-
-
+import Navbar from './Navbar';
 const Home = ()=> {
 
     return(

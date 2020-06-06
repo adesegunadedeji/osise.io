@@ -1,0 +1,19 @@
+.footer-container{
+    padding-top: 20px !important;
+    /* padding-bottom: 55px !important; */
+    background-color: #ECEAE8;
+    padding-bottom: 55px !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-strong{
+    font-size: 30px;
+}
+
+.footer-list{
+    list-style-type: square;
+    color: #F44C3A;
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive;
+}

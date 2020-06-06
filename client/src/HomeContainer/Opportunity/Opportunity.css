@@ -4,8 +4,17 @@
     padding-bottom: 55px !important;
     text-align: center;
 }
-h1{
+h2{
     text-transform: uppercase;
     color: #ffffff;
     font-family: 'Architects Daughter', cursive;
+}
+
+.list-text{
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    float: none;
 }

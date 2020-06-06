@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import EmployeeList from './EmployeesList/EmployeesList'
 import NewEmployee from './NewEmployee/NewEmployee';
-
+import Home from '../HomeContainer/Home';
+import Footer from '../FooterContainer/Footer';
 const url = 'http://localhost:8080/employees';
 export default class EmployeeContainer extends Component{
     constructor(){
@@ -94,9 +95,10 @@ export default class EmployeeContainer extends Component{
     render(){
         return (
             <div>
-                <h1> Here's the employee container</h1>
+                <Home/>
                 <NewEmployee createEmployee={this.createEmployee}/>
                 <EmployeeList allEmployees={this.state.employees} deleteEmployee={this.deleteEmployee} updateEmployee={this.updateEmployee}/>
+                <Footer/>
             </div>
         )
     }
