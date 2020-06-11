@@ -6,7 +6,7 @@ const initialState = {
     last_name: "",
     job_title: "",
     department: "",
-    profile_image: "",
+    featured_image: null,
 }
 
 
@@ -48,13 +48,20 @@ export default class NewEmployee extends Component{
         });
     };
 
+
+    onImageChange = e => { 
+    this.setState({ featured_image: e.target.files[0]
+     });
+  };
+
     handleSubmit = e =>{
         e.preventDefault();
         const isValid = this.validate();
         if (isValid){
         this.props.createEmployee(this.state);
+        this.props.createPost(this.state);
         //Clear Form
-        // this.setState({initialState})
+        // this.setState({initsialState})
         }
         e.target.reset();
     };
@@ -72,8 +79,8 @@ export default class NewEmployee extends Component{
                     <div style={{ color: "red", fontSize: 12}}>{this.state.job_titleError}</div>
                     <input type="text"  name="department" placeholder="Department" value={this.state.department} onChange={this.handleChange}/>
                     <div style={{ color: "red", fontSize: 12}}>{this.state.departmentError}</div>
-                    <input type="file" name="profile_image" value={this.state.profile_image} onChange={this.handleChange}/>
-                    <input type="submit"/>
+                    <input type="file" accept="image/*" multiple={false} onChange={this.onImageChange} />
+                    <input className="last-child" type="submit"/>
                 </form>
                 </div>
         )

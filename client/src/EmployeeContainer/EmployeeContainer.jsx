@@ -46,8 +46,25 @@ export default class EmployeeContainer extends Component{
             }
     } catch (error) {
             console.log(error);
+            
         }
     }
+
+
+createPost = async(formData)=>{
+    try {
+        formData.append('featured_image', this.state.featured_image);
+        const newPost = await  fetch('http://localhost:8080/posts', {
+      method: 'POST',
+      body: formData
+    })
+    let parsedResponse = await newPost.json();
+    console.log(parsedResponse, "NewPOST");
+    } catch (error) {
+        console.log(error);
+    }
+}
+
 
     deleteEmployee = async (id) =>{
         console.log(id, "Expecting ID of Deleted Employee");

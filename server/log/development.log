@@ -4910,3 +4910,931 @@ Processing by EmployeesController#index as */*
 Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 3.1ms | Allocations: 2647)
 
 
+Started GET "/employees" for ::1 at 2020-06-05 15:40:51 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (39.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 82ms (Views: 38.2ms | ActiveRecord: 39.5ms | Allocations: 2700)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 15:58:59 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 52ms (Views: 46.3ms | ActiveRecord: 1.6ms | Allocations: 2699)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:00:37 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.4ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:01:06 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (55.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 66ms (Views: 9.3ms | ActiveRecord: 55.7ms | Allocations: 2647)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:01:41 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.9ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.9ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:07:18 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.8ms | Allocations: 2687)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:13:51 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (4.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 14.2ms | ActiveRecord: 4.2ms | Allocations: 2687)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:16:53 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (92.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 103ms (Views: 8.8ms | ActiveRecord: 92.0ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:17:04 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (9.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 10.0ms | ActiveRecord: 9.5ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:24:50 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (2.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 13.8ms | ActiveRecord: 2.2ms | Allocations: 2687)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:52:21 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (23.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 10.9ms | ActiveRecord: 23.0ms | Allocations: 2688)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:55:03 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (10.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 4.9ms | ActiveRecord: 10.1ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:55:30 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 1.4ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:55:37 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:56:21 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.7ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:56:29 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (4.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 4.6ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:56:44 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.8ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 16:57:33 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:02:26 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (231.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 258ms (Views: 21.9ms | ActiveRecord: 231.8ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:03:49 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (2.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 2.6ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:06:50 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (3.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 3.8ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:08:39 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (20.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 5.3ms | ActiveRecord: 20.8ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:10:13 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (242.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 253ms (Views: 10.6ms | ActiveRecord: 242.5ms | Allocations: 2630)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:11:42 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (3.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 3.5ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:11:58 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (5.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 5.2ms | ActiveRecord: 5.1ms | Allocations: 2629)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:13:31 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 2632)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:16:21 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 2629)
+
+
+Started DELETE "/employees/45" for ::1 at 2020-06-05 17:17:48 -0700
+Processing by EmployeesController#destroy as */*
+  Parameters: {"id"=>"45"}
+  [1m[36mEmployee Load (5.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:44:in `set_employee'
+  [1m[35m (5.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+  [1m[36mEmployee Destroy (10.7ms)[0m  [1m[31mDELETE FROM "employees" WHERE "employees"."id" = $1[0m  [["id", 45]]
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+Completed 204 No Content in 182ms (ActiveRecord: 31.5ms | Allocations: 4410)
+
+
+Started DELETE "/employees/44" for ::1 at 2020-06-05 17:17:49 -0700
+Processing by EmployeesController#destroy as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:44:in `set_employee'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+  [1m[36mEmployee Destroy (1.0ms)[0m  [1m[31mDELETE FROM "employees" WHERE "employees"."id" = $1[0m  [["id", 44]]
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 2.9ms | Allocations: 2450)
+
+
+Started DELETE "/employees/41" for ::1 at 2020-06-05 17:17:51 -0700
+Processing by EmployeesController#destroy as */*
+  Parameters: {"id"=>"41"}
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:44:in `set_employee'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+  [1m[36mEmployee Destroy (0.8ms)[0m  [1m[31mDELETE FROM "employees" WHERE "employees"."id" = $1[0m  [["id", 41]]
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 2.0ms | Allocations: 2450)
+
+
+Started DELETE "/employees/40" for ::1 at 2020-06-05 17:17:53 -0700
+Processing by EmployeesController#destroy as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:44:in `set_employee'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+  [1m[36mEmployee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "employees" WHERE "employees"."id" = $1[0m  [["id", 40]]
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:38:in `destroy'
+Completed 204 No Content in 6ms (ActiveRecord: 1.9ms | Allocations: 2450)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:18:46 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 1.8ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:18:53 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (2.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 2.6ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:20:14 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (6.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 2.8ms | ActiveRecord: 6.5ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:20:52 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.6ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:22:55 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (17.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 20.2ms | ActiveRecord: 17.1ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:23:38 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:24:01 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (14.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 3.8ms | ActiveRecord: 14.4ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:27:27 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.1ms | Allocations: 1983)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:29:05 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.5ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:29:10 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (2.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 2.8ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:36:56 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.1ms | Allocations: 2041)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:37:18 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (14.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 2.3ms | ActiveRecord: 14.0ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:38:39 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:40:25 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (8.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 3.4ms | ActiveRecord: 8.1ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:40:47 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 1.1ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:41:32 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (4.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 4.2ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:45:34 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 1.7ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:46:07 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (1.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.1ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:46:20 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (8.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 5.2ms | ActiveRecord: 8.3ms | Allocations: 1983)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:46:46 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (20.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 2.6ms | ActiveRecord: 20.8ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:47:09 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (20.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 5.0ms | ActiveRecord: 20.7ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:47:26 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (8.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 3.2ms | ActiveRecord: 8.3ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:51:36 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (4.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 14.4ms | ActiveRecord: 4.6ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 17:59:28 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (21.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 14.1ms | ActiveRecord: 21.7ms | Allocations: 2040)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 18:01:00 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-05 18:02:09 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 17.1ms | ActiveRecord: 0.5ms | Allocations: 1983)
+
+
+Started GET "/employees" for ::1 at 2020-06-06 17:55:18 -0700
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (6.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 13.4ms | ActiveRecord: 25.0ms | Allocations: 8085)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 20:56:52 -0700
+  [1m[35m (6.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (7.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 58ms (Views: 19.1ms | ActiveRecord: 35.7ms | Allocations: 8087)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 21:01:07 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (3.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 14.0ms | ActiveRecord: 3.7ms | Allocations: 2000)
+
+
+Started PUT "/employees/4" for ::1 at 2020-06-10 21:08:53 -0700
+Processing by EmployeesController#update as */*
+  Parameters: {"first_name"=>"Mike ", "last_name"=>"Gentry", "job_title"=>"Education Analyst", "department"=>"Farming", "id"=>"4", "employee"=>{"first_name"=>"Mike ", "last_name"=>"Gentry", "job_title"=>"Education Analyst", "department"=>"Farming"}}
+  [1m[36mEmployee Load (6.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:44:in `set_employee'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+  [1m[36mEmployee Update (8.2ms)[0m  [1m[33mUPDATE "employees" SET "first_name" = $1, "last_name" = $2, "updated_at" = $3 WHERE "employees"."id" = $4[0m  [["first_name", "Mike "], ["last_name", "Gentry"], ["updated_at", "2020-06-11 04:08:53.127688"], ["id", 4]]
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+Completed 200 OK in 57ms (Views: 1.5ms | ActiveRecord: 16.6ms | Allocations: 4987)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 21:10:27 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (3.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 3.2ms | Allocations: 2001)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 21:11:50 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 21:12:05 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (9.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 9.8ms | ActiveRecord: 9.4ms | Allocations: 1982)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 21:14:27 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (14.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 9.3ms | ActiveRecord: 14.6ms | Allocations: 1982)
+
+
+Started PUT "/employees/5" for ::1 at 2020-06-10 21:14:35 -0700
+Processing by EmployeesController#update as */*
+  Parameters: {"first_name"=>"test", "last_name"=>"Schimmel", "job_title"=>"Marketing Representative", "department"=>"Healthcare", "id"=>"5", "employee"=>{"first_name"=>"test", "last_name"=>"Schimmel", "job_title"=>"Marketing Representative", "department"=>"Healthcare"}}
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:44:in `set_employee'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+  [1m[36mEmployee Update (0.8ms)[0m  [1m[33mUPDATE "employees" SET "first_name" = $1, "updated_at" = $2 WHERE "employees"."id" = $3[0m  [["first_name", "test"], ["updated_at", "2020-06-11 04:14:35.711503"], ["id", 5]]
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+Completed 200 OK in 24ms (Views: 0.7ms | ActiveRecord: 2.0ms | Allocations: 3210)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 21:22:12 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (5.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 22.3ms | ActiveRecord: 5.2ms | Allocations: 2040)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 21:22:51 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.3ms | Allocations: 1982)
+
+
+Started PUT "/employees/7" for ::1 at 2020-06-10 21:30:33 -0700
+Processing by EmployeesController#update as */*
+  Parameters: {"first_name"=>"Casper", "last_name"=>"TheGhost", "job_title"=>"Actor", "department"=>"ENtertainment", "id"=>"7", "employee"=>{"first_name"=>"Casper", "last_name"=>"TheGhost", "job_title"=>"Actor", "department"=>"ENtertainment"}}
+  [1m[36mEmployee Load (1.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:44:in `set_employee'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+  [1m[36mEmployee Update (1.8ms)[0m  [1m[33mUPDATE "employees" SET "first_name" = $1, "last_name" = $2, "job_title" = $3, "department" = $4, "updated_at" = $5 WHERE "employees"."id" = $6[0m  [["first_name", "Casper"], ["last_name", "TheGhost"], ["job_title", "Actor"], ["department", "ENtertainment"], ["updated_at", "2020-06-11 04:30:33.162831"], ["id", 7]]
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+Completed 200 OK in 33ms (Views: 3.5ms | ActiveRecord: 7.4ms | Allocations: 3316)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 22:09:29 -0700
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (5.1ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+Completed 200 OK in 65ms (Views: 26.7ms | ActiveRecord: 35.0ms | Allocations: 8085)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-06-10 22:09:33 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4709995827031202925)[0m
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateActiveStorageTables (20200611051514)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (58.0ms)[0m  [1m[35mCREATE TABLE "active_storage_blobs" ("id" bigserial primary key, "key" character varying NOT NULL, "filename" character varying NOT NULL, "content_type" character varying, "metadata" text, "byte_size" bigint NOT NULL, "checksum" character varying NOT NULL, "created_at" timestamp NOT NULL)[0m
+  [1m[35m (6.4ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_active_storage_blobs_on_key" ON "active_storage_blobs"  ("key")[0m
+  [1m[35m (9.9ms)[0m  [1m[35mCREATE TABLE "active_storage_attachments" ("id" bigserial primary key, "name" character varying NOT NULL, "record_type" character varying NOT NULL, "record_id" bigint NOT NULL, "blob_id" bigint NOT NULL, "created_at" timestamp NOT NULL, CONSTRAINT "fk_rails_c3b3935057"
+FOREIGN KEY ("blob_id")
+  REFERENCES "active_storage_blobs" ("id")
+)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE  INDEX  "index_active_storage_attachments_on_blob_id" ON "active_storage_attachments"  ("blob_id")[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_active_storage_attachments_uniqueness" ON "active_storage_attachments"  ("record_type", "record_id", "name", "blob_id")[0m
+  [1m[36mprimary::SchemaMigration Create (2.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200611051514"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4709995827031202925)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/rooms" for ::1 at 2020-06-10 23:11:30 -0700
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/posts" for ::1 at 2020-06-10 23:11:36 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/rails/actions" for ::1 at 2020-06-10 23:11:56 -0700
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4709995827031202925)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePosts (20200611053557)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (18.2ms)[0m  [1m[35mCREATE TABLE "posts" ("id" bigserial primary key, "title" character varying, "body" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200611053557"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4709995827031202925)[0m
+Started GET "/posts" for ::1 at 2020-06-10 23:11:56 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant PostsController
+Did you mean?  PostController):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/posts" for ::1 at 2020-06-10 23:12:47 -0700
+  
+ActionController::RoutingError (uninitialized constant PostsController
+Did you mean?  PostController):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/post" for ::1 at 2020-06-10 23:12:51 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/post"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/posts" for ::1 at 2020-06-10 23:12:57 -0700
+  
+ActionController::RoutingError (uninitialized constant PostsController
+Did you mean?  PostController):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/posts" for ::1 at 2020-06-10 23:13:41 -0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant PostsController
+Did you mean?  PostController):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started PUT "/employees/7" for ::1 at 2020-06-10 23:15:16 -0700
+Processing by EmployeesController#update as */*
+  Parameters: {"first_name"=>"Troy", "last_name"=>"TheGhost", "job_title"=>"Actor", "department"=>"ENtertainment", "id"=>"7", "employee"=>{"first_name"=>"Troy", "last_name"=>"TheGhost", "job_title"=>"Actor", "department"=>"ENtertainment"}}
+  [1m[36mEmployee Load (7.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:44:in `set_employee'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+  [1m[36mEmployee Update (1.9ms)[0m  [1m[33mUPDATE "employees" SET "first_name" = $1, "updated_at" = $2 WHERE "employees"."id" = $3[0m  [["first_name", "Troy"], ["updated_at", "2020-06-11 06:15:16.276634"], ["id", 7]]
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:29:in `update'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Employee (1.4ms)
+Completed 200 OK in 50ms (Views: 5.0ms | ActiveRecord: 20.3ms | Allocations: 9844)
+
+
+Started POST "/employees" for ::1 at 2020-06-10 23:16:24 -0700
+Processing by EmployeesController#create as JSON
+  Parameters: {"first_name"=>"Brick", "last_name"=>"Lace", "job_title"=>"Musician", "department"=>"MTV", "profile_image"=>"C:\\fakepath\\brick.jpeg", "employee"=>{"first_name"=>"Brick", "last_name"=>"Lace", "job_title"=>"Musician", "department"=>"MTV", "profile_image"=>"C:\\fakepath\\brick.jpeg"}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[36mEmployee Create (6.4ms)[0m  [1m[32mINSERT INTO "employees" ("first_name", "last_name", "job_title", "department", "profile_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Brick"], ["last_name", "Lace"], ["job_title", "Musician"], ["department", "MTV"], ["profile_image", "C:\\fakepath\\brick.jpeg"], ["created_at", "2020-06-11 06:16:24.951293"], ["updated_at", "2020-06-11 06:16:24.951293"]]
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/employees_controller.rb:20:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Employee (0.3ms)
+Completed 201 Created in 18ms (Views: 1.8ms | ActiveRecord: 8.2ms | Allocations: 2881)
+
+
+Started GET "/employees" for ::1 at 2020-06-10 23:16:48 -0700
+Processing by EmployeesController#index as */*
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/controllers/employees_controller.rb:8:in `index'
+No serializer found for resource: #<Employee id: 2, first_name: "Hilario", last_name: "Lubowitz", job_title: "National Banking Executive", department: "Community-Services", profile_image: "https://placehold.it/50x50.jpg", created_at: "2020-05-23 20:09:07", updated_at: "2020-05-23 20:09:07">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Employee::ActiveRecord_Relation (0.96ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.4ms | Allocations: 4096)
+
+

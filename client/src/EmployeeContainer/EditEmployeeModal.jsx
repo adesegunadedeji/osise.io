@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import './Edit.css';
 
 const EditEmployeeModal = (props) => {
   const {
@@ -32,17 +33,18 @@ const EditEmployeeModal = (props) => {
       <Modal isOpen={modal} toggle={toggle} className={className}>
   <ModalHeader toggle={toggle}>Edit {first_name} {last_name}'s Profile</ModalHeader>
         <ModalBody>
-            <form onSubmit ={submit}>
+            <form>
                 <input type="text" name="first_name"  placeholder={first_name} onChange={handleChange}/>
                 <input type="text" name="last_name"  placeholder={last_name} onChange={handleChange}/>
                 <input type="text" name="job_title"  placeholder={job_title} onChange={handleChange}/>
                 <input type="text" name="department"  placeholder={department} onChange={handleChange}/>
-                <input type="submit" value="Edit"/>
+                {/* <input type="submit" value="Edit"/> */}
             </form>
         </ModalBody>
         
         <ModalFooter>
-          <Button color="secondary" onClick={toggle}>Cancel</Button>
+          <Button className="cancel-button" onClick={toggle}>Cancel</Button>
+          <Button className="submit-button" onClick ={submit}>Submit</Button>
         </ModalFooter>
       </Modal>
     </div>
