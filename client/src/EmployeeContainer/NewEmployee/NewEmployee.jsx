@@ -1,14 +1,30 @@
 import React, {Component} from 'react';
-import './NewEmployee.css'
+import './NewEmployee.css';
+ //import S3FileUpload from 'react-s3';
+import { uploadFile } from 'react-s3';
+
+const aws = process.env.REACT_APP_KEY;
+const saws = process.env.REACT_APP_SKEY;
+ 
+//Optional Import
+
+ 
+const config = {
+    bucketName: 'osise-inc',
+    dirName: 'photos', /* optional */
+    region: 'us-west-1',
+    accessKeyId: aws,
+    secretAccessKey: saws,
+}
+
 
 const initialState = {
     first_name: "",
     last_name: "",
     job_title: "",
     department: "",
-    featured_image: null,
+    profile_image: null,
 }
-
 
 export default class NewEmployee extends Component{
     state = initialState;
@@ -39,7 +55,6 @@ export default class NewEmployee extends Component{
         return true;
     }
 
-
     handleChange = e =>{
         const isCheckedBox = e.target.type ==="checkbox";
         this.setState({
@@ -48,20 +63,20 @@ export default class NewEmployee extends Component{
         });
     };
 
-
-    onImageChange = e => { 
-    this.setState({ featured_image: e.target.files[0]
-     });
+    onImageChange (e) { 
+        // console.log(e.target.files[0]);
+       uploadFile(e.target.files[0], config)
+        .then(data => console.log(data))
+        .catch(err => console.error(err))
   };
 
-    handleSubmit = e =>{
+    handleSubmit = (e) =>{
         e.preventDefault();
         const isValid = this.validate();
         if (isValid){
         this.props.createEmployee(this.state);
-        this.props.createPost(this.state);
         //Clear Form
-        // this.setState({initsialState})
+        // this.setState({initialState})
         }
         e.target.reset();
     };
@@ -79,7 +94,7 @@ export default class NewEmployee extends Component{
                     <div style={{ color: "red", fontSize: 12}}>{this.state.job_titleError}</div>
                     <input type="text"  name="department" placeholder="Department" value={this.state.department} onChange={this.handleChange}/>
                     <div style={{ color: "red", fontSize: 12}}>{this.state.departmentError}</div>
-                    <input type="file" accept="image/*" multiple={false} onChange={this.onImageChange} />
+                    <input type="file" accept="image/*" multiple={false} onChange={this.onImageChange}/>
                     <input className="last-child" type="submit"/>
                 </form>
                 </div>

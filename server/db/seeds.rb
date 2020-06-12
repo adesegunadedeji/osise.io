@@ -11,9 +11,7 @@
     first_name: Faker::Name.first_name ,
     last_name: Faker::Name.last_name  ,
     job_title: Faker::Job.title,
-    department:Faker::Job.field,
-    profile_image: Faker::Placeholdit.image(size: '50x50', format: 'jpg'),
-    )
+    department:Faker::Job.field
 end
 
 puts "Seeded Database with faker::::"

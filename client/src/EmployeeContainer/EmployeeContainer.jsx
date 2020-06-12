@@ -16,6 +16,11 @@ export default class EmployeeContainer extends Component{
         this.getEmployees();
     };
 
+    // componentDidUpdate(){
+    //     console.log("Component is Updating")
+    //     this.getEmployees();
+    // };
+
     getEmployees =  async()=>{
         try { 
             const employees = await fetch(`${url}`);
@@ -30,7 +35,9 @@ export default class EmployeeContainer extends Component{
 
     createEmployee = async(formData)=>{
         try {
-           const newEmployee = await fetch(`${url}`, {
+            // console.log(formData);
+            console.log(formData, "FORMDATA");
+            const newEmployee = await fetch(`${url}`, {
                method: "POST",
                body: JSON.stringify(formData),
                headers:{
@@ -38,33 +45,17 @@ export default class EmployeeContainer extends Component{
                    "accept": "application/json"
                }
             })
+            console.log(newEmployee);
             let parsedResponse = await newEmployee.json();
-            if(parsedResponse){
+            console.log(parsedResponse)
                 this.setState({
-                    employees: [...this.state.employees, parsedResponse.data]
+                    employees: [...this.state.employees, parsedResponse]
                 })
-            }
     } catch (error) {
             console.log(error);
             
         }
     }
-
-
-createPost = async(formData)=>{
-    try {
-        formData.append('featured_image', this.state.featured_image);
-        const newPost = await  fetch('http://localhost:8080/posts', {
-      method: 'POST',
-      body: formData
-    })
-    let parsedResponse = await newPost.json();
-    console.log(parsedResponse, "NewPOST");
-    } catch (error) {
-        console.log(error);
-    }
-}
-
 
     deleteEmployee = async (id) =>{
         console.log(id, "Expecting ID of Deleted Employee");
@@ -113,7 +104,7 @@ createPost = async(formData)=>{
         return (
             <div>
                 <Home/>
-                <NewEmployee createEmployee={this.createEmployee}/>
+                 <NewEmployee createEmployee={this.createEmployee}/>
                 <EmployeeList allEmployees={this.state.employees} deleteEmployee={this.deleteEmployee} updateEmployee={this.updateEmployee}/>
                 <Footer/>
             </div>
