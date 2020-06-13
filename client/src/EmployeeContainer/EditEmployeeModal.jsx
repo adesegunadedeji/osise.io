@@ -17,7 +17,7 @@ const EditEmployeeModal = (props) => {
   const handleChange = (e)=>{
       const {name, value} = e.target;
      setCurrentState({...currentState, [name]: value});
-     console.log(currentState)
+     console.log(currentState);
   }
   const submit = async (e)=>{
       e.preventDefault();
@@ -52,8 +52,3 @@ const EditEmployeeModal = (props) => {
 }
 
 export default EditEmployeeModal;
-
- /* <input type="text" name="modallast_name" value={last_name} onChange={setter}/>
-                <input type="text" name="modaljob_title" value={job_title} onChange={setter}/>
-                <input type="text" name="modaldepartment" value={department}  onChange={setter}/> */
-

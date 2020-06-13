@@ -3,8 +3,8 @@ import './EmployeeList.css';
 import EditEmployeeModal from '../EditEmployeeModal';
 
 const EmployeesList = (props)=>{
+    console.log(props);
         let employees = props.allEmployees.map((employee)=> {
-            console.log(employee);
         return(
             <div key={employee.id} className="name-container">
                 <h4>{employee.first_name} {employee.last_name}</h4>

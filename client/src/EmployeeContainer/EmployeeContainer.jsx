@@ -35,8 +35,6 @@ export default class EmployeeContainer extends Component{
 
     createEmployee = async(formData)=>{
         try {
-            // console.log(formData);
-            console.log(formData, "FORMDATA");
             const newEmployee = await fetch(`${url}`, {
                method: "POST",
                body: JSON.stringify(formData),
@@ -45,9 +43,7 @@ export default class EmployeeContainer extends Component{
                    "accept": "application/json"
                }
             })
-            console.log(newEmployee);
             let parsedResponse = await newEmployee.json();
-            console.log(parsedResponse)
                 this.setState({
                     employees: [...this.state.employees, parsedResponse]
                 })
