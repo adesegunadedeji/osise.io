@@ -3,24 +3,24 @@ import EmployeeList from './EmployeesList/EmployeesList'
 import NewEmployee from './NewEmployee/NewEmployee';
 import Home from '../HomeContainer/Home';
 import Footer from '../FooterContainer/Footer';
+
+
+
 const url = 'http://localhost:8080/employees';
+
 export default class EmployeeContainer extends Component{
     constructor(){
         super();
         this.state={
-            employees: []
+            employees: [],
+            images: " "
         }
     }
         componentDidMount(){
         console.log("Component is Mounting")
         this.getEmployees();
     };
-
-    // componentDidUpdate(){
-    //     console.log("Component is Updating")
-    //     this.getEmployees();
-    // };
-
+    
     getEmployees =  async()=>{
         try { 
             const employees = await fetch(`${url}`);

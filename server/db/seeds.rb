@@ -12,6 +12,7 @@
     last_name: Faker::Name.last_name  ,
     job_title: Faker::Job.title,
     department:Faker::Job.field
+    profile_image: Faker::Placeholdit.image(size: '50x50') #=> "https://placehold.it/50x50.png"
 end
 
 puts "Seeded Database with faker::::"
