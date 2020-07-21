@@ -1,0 +1,118 @@
+  [1m[35m (403.8ms)[0m  [1m[35mCREATE DATABASE "review_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (399.9ms)[0m  [1m[35mCREATE DATABASE "review_api_test" ENCODING = 'unicode'[0m
+  [1m[35m (17.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(57826415185388955)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateNames (20200721163813)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.1ms)[0m  [1m[35mCREATE TABLE "names" ("id" bigserial primary key, "title" character varying, "team" character varying, "score" character varying, "feedback" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200721163813"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-21 16:38:42.207939"], ["updated_at", "2020-07-21 16:38:42.207939"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT pg_advisory_unlock(57826415185388955)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(57826415185388955)[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmployeereviews (20200721164228)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.1ms)[0m  [1m[35mCREATE TABLE "employeereviews" ("id" bigserial primary key, "name" character varying, "title" character varying, "team" character varying, "score" character varying, "feedback" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200721164228"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (5.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(57826415185388955)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (2.0ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Giselle Schaefer"], ["title", "Legacy Education Officer"], ["team", "Construction"], ["score", "6"], ["feedback", "deliver vertical e-commerce"], ["created_at", "2020-07-21 16:52:49.287243"], ["updated_at", "2020-07-21 16:52:49.287243"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.3ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Man Sawayn"], ["title", "Lead Education Coordinator"], ["team", "Retail"], ["score", "6"], ["feedback", "synergize end-to-end eyeballs"], ["created_at", "2020-07-21 16:52:49.293854"], ["updated_at", "2020-07-21 16:52:49.293854"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.2ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Amb. Carolee Gerlach"], ["title", "Legacy Manufacturing Representative"], ["team", "Marketing"], ["score", "7"], ["feedback", "iterate mission-critical methodologies"], ["created_at", "2020-07-21 16:52:49.297624"], ["updated_at", "2020-07-21 16:52:49.297624"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.2ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Leida Zboncak"], ["title", "Technology Facilitator"], ["team", "Advertising"], ["score", "2"], ["feedback", "embrace plug-and-play content"], ["created_at", "2020-07-21 16:52:49.301384"], ["updated_at", "2020-07-21 16:52:49.301384"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.2ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Edmond Fritsch"], ["title", "Investor Government Facilitator"], ["team", "Sales"], ["score", "8"], ["feedback", "incentivize ubiquitous paradigms"], ["created_at", "2020-07-21 16:52:49.304813"], ["updated_at", "2020-07-21 16:52:49.304813"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.2ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Quintin Howe"], ["title", "Product Administrator"], ["team", "Banking"], ["score", "4"], ["feedback", "orchestrate holistic e-services"], ["created_at", "2020-07-21 16:52:49.308367"], ["updated_at", "2020-07-21 16:52:49.308367"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.3ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Fr. Alfonzo Schulist"], ["title", "Customer Design Specialist"], ["team", "Farming"], ["score", "8"], ["feedback", "innovate integrated e-commerce"], ["created_at", "2020-07-21 16:52:49.311981"], ["updated_at", "2020-07-21 16:52:49.311981"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.3ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Teodoro MacGyver"], ["title", "Healthcare Coordinator"], ["team", "Sales"], ["score", "10"], ["feedback", "unleash compelling web services"], ["created_at", "2020-07-21 16:52:49.316239"], ["updated_at", "2020-07-21 16:52:49.316239"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.2ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Riley Renner"], ["title", "Legacy Consultant"], ["team", "Education"], ["score", "10"], ["feedback", "incubate next-generation eyeballs"], ["created_at", "2020-07-21 16:52:49.320567"], ["updated_at", "2020-07-21 16:52:49.320567"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEmployeereview Create (0.2ms)[0m  [1m[32mINSERT INTO "employeereviews" ("name", "title", "team", "score", "feedback", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Devon Bednar"], ["title", "Farming Engineer"], ["team", "Hospitality"], ["score", "9"], ["feedback", "reinvent plug-and-play eyeballs"], ["created_at", "2020-07-21 16:52:49.324108"], ["updated_at", "2020-07-21 16:52:49.324108"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/employees" for ::1 at 2020-07-21 09:53:04 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/employees"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/employeereviews" for ::1 at 2020-07-21 09:53:12 -0700
+Processing by EmployeereviewsController#index as HTML
+  [1m[36mEmployeereview Load (11.5ms)[0m  [1m[34mSELECT "employeereviews".* FROM "employeereviews"[0m
+  ↳ app/controllers/employeereviews_controller.rb:8:in `index'
+Completed 200 OK in 83ms (Views: 20.6ms | ActiveRecord: 58.5ms | Allocations: 8646)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-07-21 09:53:14 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
