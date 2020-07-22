@@ -16,6 +16,7 @@ export default class EmployeeContainer extends Component{
             images: " "
         }
     }
+    
         componentDidMount(){
         console.log("Component is Mounting")
         this.getEmployees();
