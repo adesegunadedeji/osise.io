@@ -6,18 +6,18 @@ const Opportunity = ()=> {
     const resources = [
         {
             id: 1,
-            title: "Onboard Your Team",
-            content: "Send great offer letters and have new employees set up their own Osise accounts. Plus, sign and store the new-hire paperwork you need right in Osise to stay organized. "
+            title: "Buy A Home",
+            content: "With over 1million+ homes for sales available on the webiste, Osise can match you with a house you will wnat to call home"
         },
         {
             id: 2,
-            title: "Pay Your Team",
-            content: "We made payroll easy. With just a few clicks, we calculate and file your payroll taxes. From there, everything syncs automatically — time tracking, new hires, benefits plans, and more."
+            title: "Rent a home",
+            content: "With 35+ filters and custom keyword search, Osise can help you easily find a home or apartment for rent that you'll love"
         },
         {
             id: 3,
-            title: "Help Your Team make the most of their careers",
-            content: " Supporting your team goes beyond payday. With Osise, you can give employees tools and resources to build a solid career."
+            title: "See Neighborhoods",
+            content: "Trulia gives you a feel for everyday life in a neighborhood so you can decide if a home and neighborhood are right for you."
         }
     ].map((resources)=> {
         console.log(resources.title);
@@ -31,7 +31,7 @@ const Opportunity = ()=> {
     })
     return (
         <div className="opportunity-container">
-            <h2>opportunities</h2>
+            <h2>Discover a place you'll love to live</h2>
     {resources}
         </div>
     )

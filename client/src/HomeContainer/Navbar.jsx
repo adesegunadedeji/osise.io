@@ -1,21 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import './Navbar.css';
+const NavbarExample = (props) => {
+  const [collapsed, setCollapsed] = useState(true);
 
-const Navbar = ()=> {
-    return(
-        <div>
-            <nav className="navbar">
-            <ul className="navbar-list">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#opportunties">Opportunities</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    )
+  const toggleNavbar = () => setCollapsed(!collapsed);
 
+  return (
+    <div>
+      <Navbar >
+        <NavbarBrand href="/">osise</NavbarBrand>
+        <NavbarToggler onClick={toggleNavbar}/>
+        <Collapse isOpen={!collapsed} navbar>
+          <Nav navbar>
+            <NavItem>
+              <NavLink href="/components/">Components</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
 }
 
-
-export default Navbar;
+export default NavbarExample;

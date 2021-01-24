@@ -1,0 +1,22 @@
+.navbar-brand{
+    color: #F44C3A !important;
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive;
+}
+.navbar{
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-color: #ECEAE8;
+}
+
+ span.navbar-toggler-icon{
+   color: #F44C3A !important;
+} 
+
+a.nav-link{
+    color: #F44C3A !important;
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive;
+}
+

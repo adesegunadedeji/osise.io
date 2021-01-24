@@ -7,13 +7,13 @@ import './About.css';
 
     return(
         <div className="about-container">
-            <strong>Welcome to the people platform</strong>
-            <p className="about-title">Osise is an <span className="about-intro">exclusive SaaS</span> for small businesses and enterprises</p>
-            <p className="about-text">Think of osise as a hub that makes it easy for small businesses to onboard, pay and review its hardworking team.
+            <strong>Discover where you'll love to live</strong>
+            <p className="about-title">Osise is <span className="about-intro">an online Real Estate marketplace</span></p>
+            <p className="about-text"> Osise facilitates buyers and renters to find homes and neighborhoods across Africa through recommendations. 
                 <br/>
-                We offer very customizable and user-friendly enterpize grade solutions that aims to helps businesses manage their Human Capital, and also get and give feedback.
+            with more neighborhood insights than our competitors, we've captured the color and diversity of communities.
             </p>
-            <button className="about-button">Get Started</button>
+            <button className="about-button">Learn More</button>
         </div>
     )
 }
